@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  padding: 10px 5px;
+  gap: 5px;
+}
+
+.icon {
+  scale: 85%;
+  user-select: none;
+  height: 48px;
+  width: 48px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(1.04);
+  }
+}
+
+.label {
+  margin: 0;
+  font-size: 9px;
+  width: max-content;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 0 2px;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  &:active {
+    opacity: 100%;
+  }
+}
