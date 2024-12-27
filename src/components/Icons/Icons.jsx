@@ -3,10 +3,9 @@ import computer from "../../assets/computer_explorer_cool-0.png";
 import console from "../../assets/console_prompt-0.png";
 import paint from "../../assets/paint_old-0.png";
 import folder from "../../assets/directory_closed-4.png";
-
 import classes from "./Icons.module.scss";
 
-const Icons = () => {
+const Icons = ({ openModal, closeModal }) => {
   return (
     <div className={classes.container}>
       <div className={classes.iconsContainer}>
@@ -22,11 +21,21 @@ const Icons = () => {
         <p className={classes.label}>Documents</p>
       </div>
       <div className={classes.iconsContainer}>
-        <img src={console} alt="Command Prompt" className={classes.icon} />
+        <img
+          src={console}
+          alt="Command Prompt"
+          className={classes.icon}
+          onClick={() => openModal("Console")}
+        />
         <p className={classes.label}>Terminal</p>
       </div>
       <div className={classes.iconsContainer}>
-        <img src={paint} alt="Microsoft Paint" className={classes.icon} />
+        <img
+          src={paint}
+          alt="Microsoft Paint"
+          className={classes.icon}
+          onClick={() => openModal("Paint")}
+        />
         <p className={classes.label}>MS Paint</p>
       </div>
     </div>
