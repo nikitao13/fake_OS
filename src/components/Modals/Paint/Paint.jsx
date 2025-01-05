@@ -22,9 +22,13 @@ const Paint = ({ closeModal }) => {
           <BrushIcon
             className={classes.icon}
             fontSize="small"
-            color="primary"
+            color="secondary"
           />
-          <DeleteIcon className={classes.icon} fontSize="small" />
+          <DeleteIcon
+            className={classes.icon}
+            fontSize="small"
+            color="secondary"
+          />
           <ClearIcon
             className={classes.icon}
             fontSize="small"

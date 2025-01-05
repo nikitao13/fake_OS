@@ -15,13 +15,13 @@ A retro-inspired web application built with React, designed to emulate the nosta
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/nikitao13/fake_os.git
+   git clone https://github.com/nikitao13/fake_OS.git
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd fake_os
+   cd fake_OS
    ```
 
 3. Install dependencies:
@@ -34,11 +34,6 @@ A retro-inspired web application built with React, designed to emulate the nosta
 
    ```bash
    npm run dev
-   ```
-
-5. Open your browser and navigate to:
-   ```
-   http://localhost:3000
    ```
 
 ## 🛠️ Technologies Used
