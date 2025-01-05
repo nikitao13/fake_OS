@@ -1,0 +1,29 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.listItem {
+  background-color: #bdbebd;
+  border-bottom: 1px solid white;
+  padding: 3px 35px 3px 5px;
+  font-size: 12px;
+  font-weight: 300;
+  color: black;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 80%;
+  }
+}
+
+.container {
+  width: max-content;
+  position: absolute;
+  bottom: 0;
+  margin-left: -10px;
+  user-select: none;
+}

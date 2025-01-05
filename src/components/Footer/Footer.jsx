@@ -4,7 +4,7 @@ import network from "../../assets/telephony-0.png";
 import battery from "../../assets/battery.png";
 import classes from "./Footer.module.scss";
 
-const Footer = () => {
+const Footer = ({ toggleMenu }) => {
   const [time, setTime] = useState("");
 
   const getTime = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
 
   return (
     <div className={classes.footer}>
-      <div className={classes.start}>
+      <div className={classes.start} onClick={toggleMenu}>
         <img src={windows} alt="Start" className={classes.icon} />
         <p className={classes.start__text}>Start</p>
       </div>

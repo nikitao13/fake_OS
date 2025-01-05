@@ -53,11 +53,11 @@
   &:hover {
     cursor: pointer;
     color: red;
+    opacity: 75%;
   }
 }
 
 .icon {
-
   &:hover {
     cursor: pointer;
     opacity: 75%;
@@ -68,4 +68,9 @@
     opacity: 100%;
     scale: 1.1;
   }
+}
+
+.canvas {
+  height: 100%;
+  width: 100%;
 }

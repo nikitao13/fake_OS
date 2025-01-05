@@ -2,6 +2,7 @@ import classes from "./Paint.module.scss";
 import BrushIcon from "@mui/icons-material/Brush";
 import ClearIcon from "@mui/icons-material/Clear";
 import DeleteIcon from "@mui/icons-material/Delete";
+import Artwork from "./Artwork.jsx";
 
 const Paint = ({ closeModal }) => {
   return (
@@ -23,17 +24,14 @@ const Paint = ({ closeModal }) => {
             fontSize="small"
             color="primary"
           />
-          <DeleteIcon
-            className={classes.icon}
-            fontSize="small"
-          />
+          <DeleteIcon className={classes.icon} fontSize="small" />
           <ClearIcon
             className={classes.icon}
             fontSize="small"
             color="secondary"
           />
         </div>
-        <div className={classes.paint}></div>
+        <Artwork />
       </section>
     </div>
   );

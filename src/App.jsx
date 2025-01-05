@@ -1,13 +1,20 @@
 import "./App.scss";
+import { useState } from "react";
 import Main from "./components/Main/Main.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-// import StartBar from "./components/StartBar/StartBar.jsx";
 
 const App = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+    console.log(menuOpen);
+  };
+
   return (
     <>
-      <Main />
-      <Footer />
+      <Main menuOpen={menuOpen} toggleMenu={toggleMenu} />
+      <Footer toggleMenu={toggleMenu} />
     </>
   );
 };

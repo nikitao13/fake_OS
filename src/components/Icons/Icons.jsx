@@ -5,7 +5,7 @@ import paint from "../../assets/paint_old-0.png";
 import folder from "../../assets/directory_closed-4.png";
 import classes from "./Icons.module.scss";
 
-const Icons = ({ openModal, closeModal }) => {
+const Icons = ({ openModal }) => {
   return (
     <div className={classes.container}>
       <div className={classes.iconsContainer}>
