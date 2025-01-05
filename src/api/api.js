@@ -3,7 +3,6 @@ const getData = async () => {
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error("failed to fetch img: " + res.status);
-    console.log(res.url);
     return res.url;
   } catch (e) {
     return e.message;

@@ -8,7 +8,6 @@ const App = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log(menuOpen);
   };
 
   return (
