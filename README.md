@@ -53,6 +53,7 @@ A retro-inspired web application built with React, designed to emulate the nosta
 - Not optimized for mobile.
 - Desktop apps have minimal functionality.
 - Paint API call needs work.
+- Start bar non-functional.
 
 ## 🤝 Future Plans
 
@@ -62,6 +63,7 @@ A retro-inspired web application built with React, designed to emulate the nosta
 - Turn console textarea into a form and append user commands to terminal.
 - Make console commands do something, e.g "exit" should exit terminal.
 - MSN app for chatting with other users.
+- Make startbar launch apps similar to desktop icons.
 
 ---
 
