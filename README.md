@@ -53,11 +53,9 @@ A retro-inspired web application built with React, designed to emulate the nosta
 - Not optimized for mobile.
 - Desktop apps have minimal functionality.
 - Paint API call needs work.
-- Clock is not real-time and needs to be fixed.
 
 ## 🤝 Future Plans
 
-- Real-time clock.
 - Improved app functionality.
 - Increase user interaction through apps, e.g canvas for MS Paint.
 - Allow users to draw images in MS Paint.
